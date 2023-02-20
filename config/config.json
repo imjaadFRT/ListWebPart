@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "vehicles-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/vehiclesWebPart/VehiclesWebPartWebPart.js",
+          "manifest": "./src/webparts/vehiclesWebPart/VehiclesWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "VehiclesWebPartWebPartStrings": "lib/webparts/vehiclesWebPart/loc/{locale}.js"
+  }
+}
